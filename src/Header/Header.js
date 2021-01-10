@@ -15,6 +15,8 @@ import { useStateValue } from "../Context/StateProvider";
 
 export default function Header() {
   const [{ user }, dispatch] = useStateValue();
+
+  console.log(user);
   return (
     <div className="header">
       <div className="header_left">
@@ -46,7 +48,7 @@ export default function Header() {
       </div>
       <div className="header_right">
         <div className="header_info">
-          <Avatar src={user.photoUrl} />
+          <Avatar src={user.photoURL} />
           <h4>{user.displayName}</h4>
         </div>
         <IconButton>
