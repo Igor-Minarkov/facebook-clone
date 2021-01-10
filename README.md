@@ -1,3 +1,10 @@
+#Facebook clone
+
+There is a Facebook feed that is working property, and I have used the google firebase backend for this. I have created a simple log in component, with google auth (only, for example, it doesn't work on refresh). The style is made with flex and material UI, to make it nice and smooth. The naming of the classes is made in correlation with BEM convention.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
